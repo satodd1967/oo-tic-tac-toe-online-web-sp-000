@@ -46,13 +46,13 @@ end
   end
 end
 
-  def current_player
+ def current_player
   if turn_count.even? == true
     return "X"
   else
     "O"
   end
-end
+end 
 
   def turn
     puts "Please enter 1-9:"
